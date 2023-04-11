@@ -11,6 +11,7 @@
 
         @include m.tablet { 
             @include m.grid(3, 2rem);
+            overflow-x:hidden;
         }
     }
 
